@@ -1,6 +1,6 @@
 <!--
-Copy (or hardlink) this file into your wordpress-develop root and run via:
-$ phpunit -c phpunit.customize.xml
+DO NOT MODIFY THIS FILE, if it is in the root of the wordpress-develop root.
+Only modify if it is in the wp-customize-tests directory.
 -->
 <phpunit
         bootstrap="tests/phpunit/includes/bootstrap.php"
