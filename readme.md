@@ -17,9 +17,7 @@ git clone https://github.com/xwp/wp-customize-tests.git wp-customize-tests
 Then you can run unit tests specific to the Customizer via:
 
 ```sh
-wp-customize-tests/run.sh
+wp-customize-tests/phpunit-with-code-coverage.sh
 ```
 
 And then open `wp-customize-tests/coverage-html/index.html` to see the report.
-
-
