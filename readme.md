@@ -1,4 +1,4 @@
-There is a `customize` test group for PHPUnit
+There is already a `customize` test group for PHPUnit in WordPress Core:
 
 ```
 phpunit --group customize
