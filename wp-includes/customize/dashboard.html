@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /srv/www/wordpress-develop/src/wp-includes/customize</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../js/html5shiv.min.js"></script>
+  <script src="../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../index.html">/srv/www/wordpress-develop/src</a></li>
+        <li><a href="../index.html">wp-includes</a></li>
+        <li><a href="index.html">customize</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="class-wp-customize-nav-menu-auto-add-control.php.html#17">WP_Customize_Nav_Menu_Auto_Add_Control</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-control.php.html#15">WP_Customize_Nav_Menu_Control</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-section.php.html#19">WP_Customize_Nav_Menu_Section</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-name-control.php.html#17">WP_Customize_Nav_Menu_Name_Control</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menus-panel.php.html#19">WP_Customize_Nav_Menus_Panel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-header-image-setting.php.html#19">WP_Customize_Header_Image_Setting</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-background-image-setting.php.html#17">WP_Customize_Background_Image_Setting</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-sidebar-section.php.html#17">WP_Customize_Sidebar_Section</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-new-menu-section.php.html#19">WP_Customize_New_Menu_Section</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-new-menu-control.php.html#17">WP_Customize_New_Menu_Control</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-location-control.php.html#19">WP_Customize_Nav_Menu_Location_Control</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-item-control.php.html#15">WP_Customize_Nav_Menu_Item_Control</a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="class-wp-customize-theme-control.php.html#17">WP_Customize_Theme_Control</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="class-wp-customize-header-image-control.php.html#17">WP_Customize_Header_Image_Control</a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="class-wp-customize-upload-control.php.html#17">WP_Customize_Upload_Control</a></td><td class="text-right">44%</td></tr>
+       <tr><td><a href="class-wp-customize-background-image-control.php.html#17">WP_Customize_Background_Image_Control</a></td><td class="text-right">45%</td></tr>
+       <tr><td><a href="class-wp-customize-media-control.php.html#17">WP_Customize_Media_Control</a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="class-wp-customize-themes-section.php.html#19">WP_Customize_Themes_Section</a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="class-wp-customize-color-control.php.html#17">WP_Customize_Color_Control</a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="class-wp-customize-cropped-image-control.php.html#17">WP_Customize_Cropped_Image_Control</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-item-setting.php.html#20">WP_Customize_Nav_Menu_Item_Setting</a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-setting.php.html#21">WP_Customize_Nav_Menu_Setting</a></td><td class="text-right">85%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="class-wp-customize-nav-menu-item-setting.php.html#20">WP_Customize_Nav_Menu_Item_Setting</a></td><td class="text-right">148</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-setting.php.html#21">WP_Customize_Nav_Menu_Setting</a></td><td class="text-right">88</td></tr>
+       <tr><td><a href="class-wp-customize-header-image-control.php.html#17">WP_Customize_Header_Image_Control</a></td><td class="text-right">45</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-location-control.php.html#19">WP_Customize_Nav_Menu_Location_Control</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-control.php.html#15">WP_Customize_Nav_Menu_Control</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="class-wp-customize-media-control.php.html#17">WP_Customize_Media_Control</a></td><td class="text-right">29</td></tr>
+       <tr><td><a href="class-wp-customize-header-image-setting.php.html#19">WP_Customize_Header_Image_Setting</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="class-wp-customize-themes-section.php.html#19">WP_Customize_Themes_Section</a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="class-wp-customize-upload-control.php.html#17">WP_Customize_Upload_Control</a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="class-wp-customize-nav-menu-name-control.php.html#42"><abbr title="WP_Customize_Nav_Menu_Name_Control::content_template">content_template</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-section.php.html#37"><abbr title="WP_Customize_Nav_Menu_Section::json">json</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-location-control.php.html#58"><abbr title="WP_Customize_Nav_Menu_Location_Control::render_content">render_content</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-location-control.php.html#47"><abbr title="WP_Customize_Nav_Menu_Location_Control::to_json">to_json</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-new-menu-section.php.html#36"><abbr title="WP_Customize_New_Menu_Section::render">render</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-background-image-control.php.html#40"><abbr title="WP_Customize_Background_Image_Control::enqueue">enqueue</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-theme-control.php.html#64"><abbr title="WP_Customize_Theme_Control::content_template">content_template</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-sidebar-section.php.html#58"><abbr title="WP_Customize_Sidebar_Section::active_callback">active_callback</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menus-panel.php.html#78"><abbr title="WP_Customize_Nav_Menus_Panel::content_template">content_template</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-new-menu-control.php.html#34"><abbr title="WP_Customize_New_Menu_Control::render_content">render_content</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menus-panel.php.html#55"><abbr title="WP_Customize_Nav_Menus_Panel::wp_nav_menu_manage_columns">wp_nav_menu_manage_columns</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menus-panel.php.html#36"><abbr title="WP_Customize_Nav_Menus_Panel::render_screen_options">render_screen_options</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-setting.php.html#321"><abbr title="WP_Customize_Nav_Menu_Setting::_sort_menus_by_orderby">_sort_menus_by_orderby</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-sidebar-section.php.html#44"><abbr title="WP_Customize_Sidebar_Section::json">json</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-item-control.php.html#65"><abbr title="WP_Customize_Nav_Menu_Item_Control::content_template">content_template</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-item-control.php.html#159"><abbr title="WP_Customize_Nav_Menu_Item_Control::json">json</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-header-image-control.php.html#46"><abbr title="WP_Customize_Header_Image_Control::enqueue">enqueue</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-header-image-control.php.html#75"><abbr title="WP_Customize_Header_Image_Control::prepare_control">prepare_control</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-control.php.html#96"><abbr title="WP_Customize_Nav_Menu_Control::json">json</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-cropped-image-control.php.html#70"><abbr title="WP_Customize_Cropped_Image_Control::enqueue">enqueue</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-color-control.php.html#79"><abbr title="WP_Customize_Color_Control::content_template">content_template</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-background-image-setting.php.html#25"><abbr title="WP_Customize_Background_Image_Setting::update">update</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-color-control.php.html#50"><abbr title="WP_Customize_Color_Control::enqueue">enqueue</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-media-control.php.html#75"><abbr title="WP_Customize_Media_Control::enqueue">enqueue</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-header-image-setting.php.html#29"><abbr title="WP_Customize_Header_Image_Setting::update">update</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-media-control.php.html#143"><abbr title="WP_Customize_Media_Control::content_template">content_template</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-auto-add-control.php.html#42"><abbr title="WP_Customize_Nav_Menu_Auto_Add_Control::content_template">content_template</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-control.php.html#49"><abbr title="WP_Customize_Nav_Menu_Control::content_template">content_template</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="class-wp-customize-media-control.php.html#87"><abbr title="WP_Customize_Media_Control::to_json">to_json</a></a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="class-wp-customize-upload-control.php.html#32"><abbr title="WP_Customize_Upload_Control::to_json">to_json</a></a></td><td class="text-right">44%</td></tr>
+       <tr><td><a href="class-wp-customize-themes-section.php.html#36"><abbr title="WP_Customize_Themes_Section::render">render</a></a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-item-setting.php.html#675"><abbr title="WP_Customize_Nav_Menu_Item_Setting::update">update</a></a></td><td class="text-right">56%</td></tr>
+       <tr><td><a href="class-wp-customize-header-image-control.php.html#158"><abbr title="WP_Customize_Header_Image_Control::get_current_image_src">get_current_image_src</a></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-setting.php.html#483"><abbr title="WP_Customize_Nav_Menu_Setting::update">update</a></a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="class-wp-customize-header-image-control.php.html#169"><abbr title="WP_Customize_Header_Image_Control::render_content">render_content</a></a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-item-setting.php.html#523"><abbr title="WP_Customize_Nav_Menu_Item_Setting::value_as_wp_post_nav_menu_item">value_as_wp_post_nav_menu_item</a></a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-setting.php.html#249"><abbr title="WP_Customize_Nav_Menu_Setting::filter_wp_get_nav_menus">filter_wp_get_nav_menus</a></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-item-setting.php.html#418"><abbr title="WP_Customize_Nav_Menu_Item_Setting::filter_wp_get_nav_menu_items">filter_wp_get_nav_menu_items</a></a></td><td class="text-right">86%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-setting.php.html#213"><abbr title="WP_Customize_Nav_Menu_Setting::preview">preview</a></a></td><td class="text-right">86%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-item-setting.php.html#376"><abbr title="WP_Customize_Nav_Menu_Item_Setting::preview">preview</a></a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-setting.php.html#386"><abbr title="WP_Customize_Nav_Menu_Setting::filter_nav_menu_options">filter_nav_menu_options</a></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="class-wp-customize-nav-menu-item-setting.php.html#675"><abbr title="WP_Customize_Nav_Menu_Item_Setting::update">update</abbr></a></td><td class="text-right">45</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-setting.php.html#483"><abbr title="WP_Customize_Nav_Menu_Setting::update">update</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-location-control.php.html#58"><abbr title="WP_Customize_Nav_Menu_Location_Control::render_content">render_content</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="class-wp-customize-media-control.php.html#87"><abbr title="WP_Customize_Media_Control::to_json">to_json</abbr></a></td><td class="text-right">24</td></tr>
+       <tr><td><a href="class-wp-customize-header-image-setting.php.html#29"><abbr title="WP_Customize_Header_Image_Setting::update">update</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-item-setting.php.html#418"><abbr title="WP_Customize_Nav_Menu_Item_Setting::filter_wp_get_nav_menu_items">filter_wp_get_nav_menu_items</abbr></a></td><td class="text-right">15</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-control.php.html#49"><abbr title="WP_Customize_Nav_Menu_Control::content_template">content_template</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-setting.php.html#249"><abbr title="WP_Customize_Nav_Menu_Setting::filter_wp_get_nav_menus">filter_wp_get_nav_menus</abbr></a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-item-setting.php.html#523"><abbr title="WP_Customize_Nav_Menu_Item_Setting::value_as_wp_post_nav_menu_item">value_as_wp_post_nav_menu_item</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="class-wp-customize-themes-section.php.html#36"><abbr title="WP_Customize_Themes_Section::render">render</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="class-wp-customize-header-image-control.php.html#169"><abbr title="WP_Customize_Header_Image_Control::render_content">render_content</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="class-wp-customize-header-image-control.php.html#75"><abbr title="WP_Customize_Header_Image_Control::prepare_control">prepare_control</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-item-setting.php.html#376"><abbr title="WP_Customize_Nav_Menu_Item_Setting::preview">preview</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="class-wp-customize-upload-control.php.html#32"><abbr title="WP_Customize_Upload_Control::to_json">to_json</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-setting.php.html#213"><abbr title="WP_Customize_Nav_Menu_Setting::preview">preview</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="class-wp-customize-nav-menu-setting.php.html#386"><abbr title="WP_Customize_Nav_Menu_Setting::filter_nav_menu_options">filter_nav_menu_options</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="class-wp-customize-header-image-control.php.html#158"><abbr title="WP_Customize_Header_Image_Control::get_current_image_src">get_current_image_src</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.3</a> using <a href="http://php.net/" target="_top">PHP 5.5.9-1ubuntu4.13</a> and <a href="http://phpunit.de/">PHPUnit 4.3.5</a> at Sun Dec 6 16:59:26 UTC 2015.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([11,0,0,1,1,3,2,2,0,2,0,3], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([28,0,0,0,0,2,2,1,3,5,5,31], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[45.454545454545,2,"<a href=\"class-wp-customize-background-image-control.php.html#17\">WP_Customize_Background_Image_Control<\/a>"],[0,1,"<a href=\"class-wp-customize-background-image-setting.php.html#17\">WP_Customize_Background_Image_Setting<\/a>"],[63.636363636364,5,"<a href=\"class-wp-customize-color-control.php.html#17\">WP_Customize_Color_Control<\/a>"],[66.666666666667,2,"<a href=\"class-wp-customize-cropped-image-control.php.html#17\">WP_Customize_Cropped_Image_Control<\/a>"],[100,1,"<a href=\"class-wp-customize-filter-setting.php.html#19\">WP_Customize_Filter_Setting<\/a>"],[42.307692307692,13,"<a href=\"class-wp-customize-header-image-control.php.html#17\">WP_Customize_Header_Image_Control<\/a>"],[0,4,"<a href=\"class-wp-customize-header-image-setting.php.html#19\">WP_Customize_Header_Image_Setting<\/a>"],[100,5,"<a href=\"class-wp-customize-image-control.php.html#17\">WP_Customize_Image_Control<\/a>"],[53.658536585366,13,"<a href=\"class-wp-customize-media-control.php.html#17\">WP_Customize_Media_Control<\/a>"],[0,2,"<a href=\"class-wp-customize-nav-menu-auto-add-control.php.html#17\">WP_Customize_Nav_Menu_Auto_Add_Control<\/a>"],[0,5,"<a href=\"class-wp-customize-nav-menu-control.php.html#15\">WP_Customize_Nav_Menu_Control<\/a>"],[25,4,"<a href=\"class-wp-customize-nav-menu-item-control.php.html#15\">WP_Customize_Nav_Menu_Item_Control<\/a>"],[83.064516129032,100,"<a href=\"class-wp-customize-nav-menu-item-setting.php.html#20\">WP_Customize_Nav_Menu_Item_Setting<\/a>"],[0,6,"<a href=\"class-wp-customize-nav-menu-location-control.php.html#19\">WP_Customize_Nav_Menu_Location_Control<\/a>"],[0,2,"<a href=\"class-wp-customize-nav-menu-name-control.php.html#17\">WP_Customize_Nav_Menu_Name_Control<\/a>"],[0,1,"<a href=\"class-wp-customize-nav-menu-section.php.html#19\">WP_Customize_Nav_Menu_Section<\/a>"],[85.281385281385,72,"<a href=\"class-wp-customize-nav-menu-setting.php.html#21\">WP_Customize_Nav_Menu_Setting<\/a>"],[0,3,"<a href=\"class-wp-customize-nav-menus-panel.php.html#19\">WP_Customize_Nav_Menus_Panel<\/a>"],[0,1,"<a href=\"class-wp-customize-new-menu-control.php.html#17\">WP_Customize_New_Menu_Control<\/a>"],[0,1,"<a href=\"class-wp-customize-new-menu-section.php.html#19\">WP_Customize_New_Menu_Section<\/a>"],[0,2,"<a href=\"class-wp-customize-sidebar-section.php.html#17\">WP_Customize_Sidebar_Section<\/a>"],[100,1,"<a href=\"class-wp-customize-site-icon-control.php.html#19\">WP_Customize_Site_Icon_Control<\/a>"],[33.333333333333,3,"<a href=\"class-wp-customize-theme-control.php.html#17\">WP_Customize_Theme_Control<\/a>"],[55.555555555556,5,"<a href=\"class-wp-customize-themes-section.php.html#19\">WP_Customize_Themes_Section<\/a>"],[44.444444444444,3,"<a href=\"class-wp-customize-upload-control.php.html#17\">WP_Customize_Upload_Control<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"class-wp-customize-background-image-control.php.html#28\">WP_Customize_Background_Image_Control::__construct<\/a>"],[0,1,"<a href=\"class-wp-customize-background-image-control.php.html#40\">WP_Customize_Background_Image_Control::enqueue<\/a>"],[0,1,"<a href=\"class-wp-customize-background-image-setting.php.html#25\">WP_Customize_Background_Image_Setting::update<\/a>"],[100,1,"<a href=\"class-wp-customize-color-control.php.html#40\">WP_Customize_Color_Control::__construct<\/a>"],[0,1,"<a href=\"class-wp-customize-color-control.php.html#50\">WP_Customize_Color_Control::enqueue<\/a>"],[100,1,"<a href=\"class-wp-customize-color-control.php.html#61\">WP_Customize_Color_Control::to_json<\/a>"],[100,1,"<a href=\"class-wp-customize-color-control.php.html#72\">WP_Customize_Color_Control::render_content<\/a>"],[0,1,"<a href=\"class-wp-customize-color-control.php.html#79\">WP_Customize_Color_Control::content_template<\/a>"],[0,1,"<a href=\"class-wp-customize-cropped-image-control.php.html#70\">WP_Customize_Cropped_Image_Control::enqueue<\/a>"],[100,1,"<a href=\"class-wp-customize-cropped-image-control.php.html#84\">WP_Customize_Cropped_Image_Control::to_json<\/a>"],[100,1,"<a href=\"class-wp-customize-filter-setting.php.html#24\">WP_Customize_Filter_Setting::update<\/a>"],[100,1,"<a href=\"class-wp-customize-header-image-control.php.html#29\">WP_Customize_Header_Image_Control::__construct<\/a>"],[0,1,"<a href=\"class-wp-customize-header-image-control.php.html#46\">WP_Customize_Header_Image_Control::enqueue<\/a>"],[0,2,"<a href=\"class-wp-customize-header-image-control.php.html#75\">WP_Customize_Header_Image_Control::prepare_control<\/a>"],[100,1,"<a href=\"class-wp-customize-header-image-control.php.html#90\">WP_Customize_Header_Image_Control::print_header_image_template<\/a>"],[60,2,"<a href=\"class-wp-customize-header-image-control.php.html#158\">WP_Customize_Header_Image_Control::get_current_image_src<\/a>"],[72.727272727273,6,"<a href=\"class-wp-customize-header-image-control.php.html#169\">WP_Customize_Header_Image_Control::render_content<\/a>"],[0,4,"<a href=\"class-wp-customize-header-image-setting.php.html#29\">WP_Customize_Header_Image_Setting::update<\/a>"],[100,1,"<a href=\"class-wp-customize-image-control.php.html#31\">WP_Customize_Image_Control::__construct<\/a>"],[100,1,"<a href=\"class-wp-customize-image-control.php.html#49\">WP_Customize_Image_Control::prepare_control<\/a>"],[100,1,"<a href=\"class-wp-customize-image-control.php.html#59\">WP_Customize_Image_Control::add_tab<\/a>"],[100,1,"<a href=\"class-wp-customize-image-control.php.html#67\">WP_Customize_Image_Control::remove_tab<\/a>"],[100,1,"<a href=\"class-wp-customize-image-control.php.html#76\">WP_Customize_Image_Control::print_tab_image<\/a>"],[100,1,"<a href=\"class-wp-customize-media-control.php.html#55\">WP_Customize_Media_Control::__construct<\/a>"],[0,1,"<a href=\"class-wp-customize-media-control.php.html#75\">WP_Customize_Media_Control::enqueue<\/a>"],[42.857142857143,9,"<a href=\"class-wp-customize-media-control.php.html#87\">WP_Customize_Media_Control::to_json<\/a>"],[100,1,"<a href=\"class-wp-customize-media-control.php.html#135\">WP_Customize_Media_Control::render_content<\/a>"],[0,1,"<a href=\"class-wp-customize-media-control.php.html#143\">WP_Customize_Media_Control::content_template<\/a>"],[100,1,"<a href=\"class-wp-customize-nav-menu-auto-add-control.php.html#34\">WP_Customize_Nav_Menu_Auto_Add_Control::render_content<\/a>"],[0,1,"<a href=\"class-wp-customize-nav-menu-auto-add-control.php.html#42\">WP_Customize_Nav_Menu_Auto_Add_Control::content_template<\/a>"],[100,1,"<a href=\"class-wp-customize-nav-menu-control.php.html#41\">WP_Customize_Nav_Menu_Control::render_content<\/a>"],[0,3,"<a href=\"class-wp-customize-nav-menu-control.php.html#49\">WP_Customize_Nav_Menu_Control::content_template<\/a>"],[0,1,"<a href=\"class-wp-customize-nav-menu-control.php.html#96\">WP_Customize_Nav_Menu_Control::json<\/a>"],[100,1,"<a href=\"class-wp-customize-nav-menu-item-control.php.html#47\">WP_Customize_Nav_Menu_Item_Control::__construct<\/a>"],[100,1,"<a href=\"class-wp-customize-nav-menu-item-control.php.html#57\">WP_Customize_Nav_Menu_Item_Control::render_content<\/a>"],[0,1,"<a href=\"class-wp-customize-nav-menu-item-control.php.html#65\">WP_Customize_Nav_Menu_Item_Control::content_template<\/a>"],[0,1,"<a href=\"class-wp-customize-nav-menu-item-control.php.html#159\">WP_Customize_Nav_Menu_Item_Control::json<\/a>"],[92.857142857143,5,"<a href=\"class-wp-customize-nav-menu-item-setting.php.html#173\">WP_Customize_Nav_Menu_Item_Setting::__construct<\/a>"],[100,2,"<a href=\"class-wp-customize-nav-menu-item-setting.php.html#206\">WP_Customize_Nav_Menu_Item_Setting::flush_cached_value<\/a>"],[91.666666666667,9,"<a href=\"class-wp-customize-nav-menu-item-setting.php.html#223\">WP_Customize_Nav_Menu_Item_Setting::value<\/a>"],[90.243902439024,23,"<a href=\"class-wp-customize-nav-menu-item-setting.php.html#269\">WP_Customize_Nav_Menu_Item_Setting::populate_value<\/a>"],[88.235294117647,5,"<a href=\"class-wp-customize-nav-menu-item-setting.php.html#376\">WP_Customize_Nav_Menu_Item_Setting::preview<\/a>"],[86.363636363636,15,"<a href=\"class-wp-customize-nav-menu-item-setting.php.html#418\">WP_Customize_Nav_Menu_Item_Setting::filter_wp_get_nav_menu_items<\/a>"],[100,4,"<a href=\"class-wp-customize-nav-menu-item-setting.php.html#493\">WP_Customize_Nav_Menu_Item_Setting::sort_wp_get_nav_menu_items<\/a>"],[77.142857142857,8,"<a href=\"class-wp-customize-nav-menu-item-setting.php.html#523\">WP_Customize_Nav_Menu_Item_Setting::value_as_wp_post_nav_menu_item<\/a>"],[100,8,"<a href=\"class-wp-customize-nav-menu-item-setting.php.html#588\">WP_Customize_Nav_Menu_Item_Setting::sanitize<\/a>"],[56.09756097561,18,"<a href=\"class-wp-customize-nav-menu-item-setting.php.html#675\">WP_Customize_Nav_Menu_Item_Setting::update<\/a>"],[100,3,"<a href=\"class-wp-customize-nav-menu-item-setting.php.html#808\">WP_Customize_Nav_Menu_Item_Setting::amend_customize_save_response<\/a>"],[0,1,"<a href=\"class-wp-customize-nav-menu-location-control.php.html#47\">WP_Customize_Nav_Menu_Location_Control::to_json<\/a>"],[0,5,"<a href=\"class-wp-customize-nav-menu-location-control.php.html#58\">WP_Customize_Nav_Menu_Location_Control::render_content<\/a>"],[100,1,"<a href=\"class-wp-customize-nav-menu-name-control.php.html#34\">WP_Customize_Nav_Menu_Name_Control::render_content<\/a>"],[0,1,"<a href=\"class-wp-customize-nav-menu-name-control.php.html#42\">WP_Customize_Nav_Menu_Name_Control::content_template<\/a>"],[0,1,"<a href=\"class-wp-customize-nav-menu-section.php.html#37\">WP_Customize_Nav_Menu_Section::json<\/a>"],[100,3,"<a href=\"class-wp-customize-nav-menu-setting.php.html#142\">WP_Customize_Nav_Menu_Setting::__construct<\/a>"],[91.666666666667,9,"<a href=\"class-wp-customize-nav-menu-setting.php.html#166\">WP_Customize_Nav_Menu_Setting::value<\/a>"],[86.666666666667,4,"<a href=\"class-wp-customize-nav-menu-setting.php.html#213\">WP_Customize_Nav_Menu_Setting::preview<\/a>"],[83.333333333333,10,"<a href=\"class-wp-customize-nav-menu-setting.php.html#249\">WP_Customize_Nav_Menu_Setting::filter_wp_get_nav_menus<\/a>"],[0,1,"<a href=\"class-wp-customize-nav-menu-setting.php.html#321\">WP_Customize_Nav_Menu_Setting::_sort_menus_by_orderby<\/a>"],[91.304347826087,6,"<a href=\"class-wp-customize-nav-menu-setting.php.html#340\">WP_Customize_Nav_Menu_Setting::filter_wp_get_nav_menu_object<\/a>"],[88.888888888889,3,"<a href=\"class-wp-customize-nav-menu-setting.php.html#386\">WP_Customize_Nav_Menu_Setting::filter_nav_menu_options<\/a>"],[100,4,"<a href=\"class-wp-customize-nav-menu-setting.php.html#414\">WP_Customize_Nav_Menu_Setting::sanitize<\/a>"],[72.602739726027,21,"<a href=\"class-wp-customize-nav-menu-setting.php.html#483\">WP_Customize_Nav_Menu_Setting::update<\/a>"],[100,6,"<a href=\"class-wp-customize-nav-menu-setting.php.html#601\">WP_Customize_Nav_Menu_Setting::filter_nav_menu_options_value<\/a>"],[100,5,"<a href=\"class-wp-customize-nav-menu-setting.php.html#628\">WP_Customize_Nav_Menu_Setting::amend_customize_save_response<\/a>"],[0,1,"<a href=\"class-wp-customize-nav-menus-panel.php.html#36\">WP_Customize_Nav_Menus_Panel::render_screen_options<\/a>"],[0,1,"<a href=\"class-wp-customize-nav-menus-panel.php.html#55\">WP_Customize_Nav_Menus_Panel::wp_nav_menu_manage_columns<\/a>"],[0,1,"<a href=\"class-wp-customize-nav-menus-panel.php.html#78\">WP_Customize_Nav_Menus_Panel::content_template<\/a>"],[0,1,"<a href=\"class-wp-customize-new-menu-control.php.html#34\">WP_Customize_New_Menu_Control::render_content<\/a>"],[0,1,"<a href=\"class-wp-customize-new-menu-section.php.html#36\">WP_Customize_New_Menu_Section::render<\/a>"],[0,1,"<a href=\"class-wp-customize-sidebar-section.php.html#44\">WP_Customize_Sidebar_Section::json<\/a>"],[0,1,"<a href=\"class-wp-customize-sidebar-section.php.html#58\">WP_Customize_Sidebar_Section::active_callback<\/a>"],[100,1,"<a href=\"class-wp-customize-site-icon-control.php.html#40\">WP_Customize_Site_Icon_Control::__construct<\/a>"],[100,1,"<a href=\"class-wp-customize-theme-control.php.html#45\">WP_Customize_Theme_Control::to_json<\/a>"],[100,1,"<a href=\"class-wp-customize-theme-control.php.html#56\">WP_Customize_Theme_Control::render_content<\/a>"],[0,1,"<a href=\"class-wp-customize-theme-control.php.html#64\">WP_Customize_Theme_Control::content_template<\/a>"],[55.555555555556,5,"<a href=\"class-wp-customize-themes-section.php.html#36\">WP_Customize_Themes_Section::render<\/a>"],[44.444444444444,3,"<a href=\"class-wp-customize-upload-control.php.html#32\">WP_Customize_Upload_Control::to_json<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
