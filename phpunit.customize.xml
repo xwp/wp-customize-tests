@@ -3,10 +3,10 @@ DO NOT MODIFY THIS FILE, if it is in the root of the wordpress-develop root.
 Only modify if it is in the wp-customize-tests directory.
 -->
 <phpunit
-        bootstrap="tests/phpunit/includes/bootstrap.php"
-        backupGlobals="false"
-        colors="true"
-        >
+    bootstrap="tests/phpunit/includes/bootstrap.php"
+    backupGlobals="false"
+    colors="true"
+    >
     <testsuites>
         <!-- Default test suite to run all tests -->
         <testsuite>
@@ -39,7 +39,8 @@ Only modify if it is in the wp-customize-tests directory.
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="false">
             <directory prefix="class-wp-customize-" suffix=".php">src/wp-includes</directory>
-			<file>src/wp-admin/customize.php</file>
+            <directory prefix="class-wp-customize-" suffix=".php">src/wp-includes/customize</directory>
+            <file>src/wp-admin/customize.php</file>
         </whitelist>
     </filter>
 </phpunit>

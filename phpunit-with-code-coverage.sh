@@ -55,9 +55,10 @@ if [ "$gh_pages_push" == 1 ]; then
 	git remote set-url origin "$ssh_remote" # SSH so we can use it in Vagrant
 	git config user.name = "PHPUnit"
 	git config user.email = "phpunit@xwp.co"
-	git commit --all --amend -m "Code coverage report"
+	git add -A
+	git commit --amend -m "Code coverage report"
 	if git push -f origin HEAD:gh-pages; then
-		echo "Code Coverage report now avalable at http://xwp.github.io/wp-customize-tests/"
+		echo "Code Coverage report now available at http://xwp.github.io/wp-customize-tests/"
 	else
 		echo "Oops. You do not have the ability to push to $ssh_remote."
 	fi
